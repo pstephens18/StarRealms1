@@ -13,6 +13,11 @@
 		9181F4221C8A34C100A09112 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9181F4211C8A34C100A09112 /* Assets.xcassets */; };
 		9181F4251C8A34C100A09112 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9181F4231C8A34C100A09112 /* LaunchScreen.storyboard */; };
 		9181F4301C8A34C100A09112 /* StarRealms1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9181F42F1C8A34C100A09112 /* StarRealms1Tests.swift */; };
+		9181F43F1C8A447600A09112 /* milky-way-1031138_960_720.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9181F43E1C8A447600A09112 /* milky-way-1031138_960_720.jpg */; };
+		919B77681C8B92D400B59C44 /* adam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 919B77651C8B92D400B59C44 /* adam.jpg */; };
+		919B77691C8B92D400B59C44 /* chase.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 919B77661C8B92D400B59C44 /* chase.jpg */; };
+		919B776A1C8B92D400B59C44 /* preston.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 919B77671C8B92D400B59C44 /* preston.jpg */; };
+		919B776C1C8B9D7200B59C44 /* vader.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 919B776B1C8B9D7200B59C44 /* vader.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		9181F42B1C8A34C100A09112 /* StarRealms1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarRealms1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9181F42F1C8A34C100A09112 /* StarRealms1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRealms1Tests.swift; sourceTree = "<group>"; };
 		9181F4311C8A34C100A09112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9181F43E1C8A447600A09112 /* milky-way-1031138_960_720.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "milky-way-1031138_960_720.jpg"; path = "../milky-way-1031138_960_720.jpg"; sourceTree = "<group>"; };
+		919B77651C8B92D400B59C44 /* adam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = adam.jpg; path = ../adam.jpg; sourceTree = "<group>"; };
+		919B77661C8B92D400B59C44 /* chase.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chase.jpg; path = ../chase.jpg; sourceTree = "<group>"; };
+		919B77671C8B92D400B59C44 /* preston.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = preston.jpg; path = ../preston.jpg; sourceTree = "<group>"; };
+		919B776B1C8B9D7200B59C44 /* vader.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = vader.jpg; path = ../vader.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 		9181F40E1C8A34C100A09112 = {
 			isa = PBXGroup;
 			children = (
+				919B776B1C8B9D7200B59C44 /* vader.jpg */,
+				919B77651C8B92D400B59C44 /* adam.jpg */,
+				919B77661C8B92D400B59C44 /* chase.jpg */,
+				919B77671C8B92D400B59C44 /* preston.jpg */,
+				9181F43E1C8A447600A09112 /* milky-way-1031138_960_720.jpg */,
 				9181F4191C8A34C100A09112 /* StarRealms1 */,
 				9181F42E1C8A34C100A09112 /* StarRealms1Tests */,
 				9181F4181C8A34C100A09112 /* Products */,
@@ -177,6 +192,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				919B776A1C8B92D400B59C44 /* preston.jpg in Resources */,
+				919B77691C8B92D400B59C44 /* chase.jpg in Resources */,
+				919B776C1C8B9D7200B59C44 /* vader.jpg in Resources */,
+				9181F43F1C8A447600A09112 /* milky-way-1031138_960_720.jpg in Resources */,
+				919B77681C8B92D400B59C44 /* adam.jpg in Resources */,
 				9181F4251C8A34C100A09112 /* LaunchScreen.storyboard in Resources */,
 				9181F4221C8A34C100A09112 /* Assets.xcassets in Resources */,
 				9181F4201C8A34C100A09112 /* Main.storyboard in Resources */,
@@ -388,6 +408,7 @@
 				9181F4361C8A34C100A09112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9181F4371C8A34C100A09112 /* Build configuration list for PBXNativeTarget "StarRealms1Tests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +417,7 @@
 				9181F4391C8A34C100A09112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
